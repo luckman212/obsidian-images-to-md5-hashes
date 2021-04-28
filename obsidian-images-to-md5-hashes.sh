@@ -39,7 +39,7 @@ while IFS= read -r IMAGENAME; do
 	fi
 	echo "processing $LOCALIZED_IMAGE"
 	#grep --extended-regexp --files-with-matches "\!\[\[$LOCALIZED_IMAGE" ./*.md
-  sed -E -i.bak "s#\!\[\[($attach_dir/)?$LOCALIZED_IMAGE\]\]#\!\[\[$HASH.$EXT\]\]#g" ./*.md
+	sed -E -i.bak "s#\!\[\[($attach_dir/)?$LOCALIZED_IMAGE\]\]#\!\[\[$HASH.$EXT\]\]#g" ./*.md
 	cp -f "$IMAGENAME" "$attach_abs/$HASH.$EXT"
 	mv "$IMAGENAME" "$backupdir/"
 done < <(find -s -E "./$attach_dir" -type f -iregex '.*\.(PNG|JPG)$')
