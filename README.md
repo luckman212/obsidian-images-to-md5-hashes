@@ -2,6 +2,12 @@
 
 See https://forum.obsidian.md/t/rename-images-from-screen-shot-xxxx-to-its-md5-hash/17141
 
+## Setup
+
+1. Download [the script](https://raw.githubusercontent.com/luckman212/obsidian-images-to-md5-hashes/main/obsidian-images-to-md5-hashes.sh)
+2. `chmod +x obsidian-images-to-md5-hashes.sh`
+3. copy or move it to somewhere in your `$PATH`
+
 ## Usage
 
 obsidian-images-to-md5-hashes.sh </path/to/vault/> <name-of-attachment-dir>
