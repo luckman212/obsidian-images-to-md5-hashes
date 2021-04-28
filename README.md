@@ -1,6 +1,6 @@
 ## obsidian-images-to-md5-hashes
 
-See https://forum.obsidian.md/t/rename-images-from-screen-shot-xxxx-to-its-md5-hash/17141
+Renames randomly-named images in your [Obsidian](https://obsidian.md/) vault to the MD5 hash of the image itself (also updates the markdown files themselves). See https://forum.obsidian.md/t/rename-images-from-screen-shot-xxxx-to-its-md5-hash/17141
 
 ## Setup
 
@@ -10,11 +10,13 @@ See https://forum.obsidian.md/t/rename-images-from-screen-shot-xxxx-to-its-md5-h
 
 ## Usage
 
+```shell
 obsidian-images-to-md5-hashes.sh </path/to/vault/> <name-of-attachment-dir>
+```
 
 e.g.
 
-```
+```shell
 obsidian-images-to-md5-hashes.sh "/Users/luke/Documents/My Vault2/" attach
 ```
 
