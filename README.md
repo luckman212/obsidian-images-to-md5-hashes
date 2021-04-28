@@ -1,3 +1,5 @@
+![logo](./logo.png)
+
 ## obsidian-images-to-md5-hashes
 
 Renames randomly-named images in your [Obsidian](https://obsidian.md/) vault to the MD5 hash of the image itself (also updates the markdown files themselves). See https://forum.obsidian.md/t/rename-images-from-screen-shot-xxxx-to-its-md5-hash/17141
