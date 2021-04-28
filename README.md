@@ -25,3 +25,5 @@ obsidian-images-to-md5-hashes.sh "/Users/luke/Documents/My Vault2/" attach
 This is somewhat inefficient, but it does work. May take 5 minutes or more to process a large vault. Really depends on how many images you have in your attachdir.
 
 When complete, backups of the original filenames and markdown files will be put in a timestamped `"backup-XXXXXXXXXX"` folder within the vault dir.
+
+**N.B.** All images/links will be consolidated into the single attachment folder. The path prefix will be stripped, so links such as `[[attach/foo.png]]` will be converted to `[[hash.png]]`.
